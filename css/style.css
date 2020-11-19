@@ -1,0 +1,78 @@
+/* HEADER */
+.logo {
+  font-family: Raleway;
+  font-weight: 900;
+  color: #212121;
+}
+.logo-header {
+  color: #2196f3;
+}
+.site-nav link-current {
+  color: #2196f3;
+}
+/* Секция Hero */
+.hero {
+  background-color: #2f303a;
+  font-family: Roboto;
+  font-weight: 900;
+  color: white;
+}
+/*Наши преимущества*/
+.feature-list .title {
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.feature-list .accent {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #757575, 100 %;
+}
+.section-heading {
+  font-family: Roboto;
+  font-weight: 700;
+  color: #212121, 100 %;
+}
+/* НАША КОМАНДА */
+.team {
+  background: #f5f4fa;
+}
+.team-description p {
+  color: #757575;
+}
+.team-member {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #212121;
+}
+.team .team-position {
+  font-family: Roboto;
+  font-weight: normal;
+  color: #757575;
+}
+/* FOOTER*/
+.footer {
+  background-color: #2f303a;
+  color: white;
+}
+.logo-foot {
+  font-family: Raleway;
+  font-weight: 900;
+  color: white;
+}
+.logo-footer {
+  color: #2196f3;
+}
+/* НАШИ ПРОЕКТЫ */
+.project-name {
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: bolt;
+  font-size: 18;
+}
+.project-theme {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16;
+  color: #757575;
+}
