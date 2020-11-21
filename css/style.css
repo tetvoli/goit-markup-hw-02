@@ -2,101 +2,165 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
-  --background-color: #ffffff;
-  --title-text-color: #2f303a;
-  --accent-color: #e5e5e5;
-  --accent-text-color: #757575;
+  --background-main-color: #ffffff;
+  --background-head-color: #2f303a;
+  --bacground-clip-color: #e5e5e5;
+  --background-text-color: #f5f4fa;
+  --button-color: #2196f3;
+  --button-portfolio-color: #f5f4fa;
+
+  --text-accent-color: #2196f3;
+  --text-footer-color: #ffffff, 60 %;
+  --text-main-color: #212121;
+  --text-contrast-color: #ffffff;
+  --text-secondary-color: #757575;
 }
 a {
   text-decoration: none;
 }
-/*
-background: #2f303a; - черный
-background: #e5e5e5; -преимущества
-background: #f5f4fa; - наша команда
-background: #2196f3; -синяя кнопка
-color: #2196F3;-синий шрифт
-color: #212121 - черный шрифт
-color: #757575; - серый шрифт */
-
-.logo {
+ul {
+  list-style-type: none;
+}
+/*HEADER*/
+header {
+  background-color: var(--background-main-color);
+}
+header .logo {
   font-family: Raleway;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 30, 52px;
-  color: var(--title-text-color);
-  text-decoration: none;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: var(--text-main-color);
 }
 .logo-header {
   color: #2196f3;
 }
+
 .site-nav a {
   font-family: Roboto;
   font-weight: 500;
-  color: #2f303a;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-main-color);
 }
-.adress a {
-  font-family: Roboto;
-  font-weight: 500;
-  color: #757575;
+.site-nav a:focus,
+.site-nav a:active,
+.site-nav a:hover {
+  color: var(--text-accent-color);
+}
+.site-nav .active {
+  color: var(--text-accent-color);
 }
 
-.hero {
-  background-color: #2f303a;
-  padding: 200px 452px 280px 452px;
-  font-family: Roboto;
-  font-weight: 900;
-  color: #ffffff;
-}
-.feature {
-  background: #e5e5e5;
-}
-.section-title {
-  font-family: Roboto;
-  font-weight: 700;
-  color: #212121;
-}
-.feature-list {
-  font-family: Roboto;
-  font-weight: 400;
-  color: #212121;
-}
-.accent {
-  font-family: Roboto;
-  font-weight: 400;
-  color: #757575;
-}
-.team {
-  background: #f5f4fa;
-}
-.member {
+header .adress a {
   font-family: Roboto;
   font-weight: 500;
-  color: #212121;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary-color);
 }
-.team-position {
+header .adress a:focus,
+header .adress a:active,
+header .adress a:hover {
+  color: var(--text-accent-color);
+}
+
+/*HERO*/
+.hero {
   font-family: Roboto;
+  letter-spacing: 0.06em;
+  background-color: var(--background-head-color);
+}
+h1 {
+  font-weight: 900;
+  line-height: 1, 36;
+  text-transform: uppercase;
+  color: var(--text-contrast-color);
+}
+.hero button {
+  font-weight: 700;
+  line-height: 1, 88;
+  color: var(--text-contrast-color);
+  background-color: var(--text-accent-color);
+}
+
+/*НАШИ ПРЕИМУЩЕСТВА*/
+.feuture {
+  font-family: Roboto;
+  background-color: var(--bacground-clip-color);
+}
+.feature h2 {
+  display: none;
+}
+
+.feature h3 {
+  font-weight: 700;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--text-main-color);
+}
+.feature p {
   font-weight: 400;
-  color: #757575;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
 }
+/*Наши работы*/
+.ourwork {
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+  background-color: var(--bacground-clip-color);
+}
+/*Наша команда*/
+.team {
+  font-family: Roboto;
+  background-color: var(--background-text-color);
+}
+.team h2 {
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+}
+.team h3 {
+  font-weight: 500;
+  line-height: 1, 19;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+}
+.team p {
+  font-weight: 400;
+  line-height: 1, 19;
+  letter-spacing: 0, 03em;
+  color: var(--text-secondary-color);
+}
+/*Footer*/
 footer {
-  background-color: #212121;
+  background-color: var(--background-head-color);
 }
-.logo-foot {
+footer .logo {
   font-family: Raleway;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 30, 52px;
-  color: #ffffff;
-  text-decoration: none;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: var(--text-contrast-color);
 }
 .logo-footer {
   color: #2196f3;
 }
-.adress-footer,
-.adress-footer a {
+
+footer address a {
   font-family: Roboto;
   font-weight: 500;
-  color: #ffffff;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary-color);
+}
+footer address p {
+  color: var(--text-contrast-color);
 }
