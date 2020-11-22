@@ -72,6 +72,7 @@ header .adress a:hover {
   font-family: Roboto;
   letter-spacing: 0.06em;
   background-color: var(--background-head-color);
+  text-align: center;
 }
 h1 {
   font-weight: 900;
@@ -165,17 +166,22 @@ footer address p {
   color: var(--text-contrast-color);
 }
 
-.site-menu a {
+.site-menu button {
   font-family: Roboto;
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: var(--text-main-color);
-  background-color: var(--bacground-clip-color);
+  background-color: var(--button-portfolio-color);
 }
-.site-menu .active {
+
+.site-menu button:focus,
+.site-menu button:active,
+.site-menu button:hover {
   color: var(--text-accent-color);
+  background-color: var(--button-color);
 }
+
 .projects {
   font-family: Roboto;
   background-color: var(--background-main-color);
