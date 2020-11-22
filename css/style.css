@@ -164,3 +164,31 @@ footer address a {
 footer address p {
   color: var(--text-contrast-color);
 }
+
+.site-menu a {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-main-color);
+  background-color: var(--bacground-clip-color);
+}
+.site-menu .active {
+  color: var(--text-accent-color);
+}
+.projects {
+  font-family: Roboto;
+  background-color: var(--background-main-color);
+}
+.projects h3 {
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-main-color);
+}
+.projects p {
+  font-weight: 400;
+  line-height: 1, 88;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}

@@ -15,17 +15,17 @@
 </head>
 
 <body>
-    <header>
-    <a href="index.html" class="logo">
-        <Span class="logo-header">Web</Span>Studio </a>
-         <nav>
+    <header class="page-header">
+        <a href="index.html" class="logo">
+            <Span class="logo-header">Web</Span>Studio </a>
+        <nav class="site-nav">
             <ul>
                 <li> <a href="index.html">Студия </a> </li>
-                <li> <a href="portfolio.html">Портфолио </a> </li>
+                <li> <a class="active" href="portfolio.html">Портфолио </a> </li>
                 <li> <a href="contacts.html">Контакты </a> </li>
             </ul>
         </nav>
-        <address>
+        <address class="adress">
             <ul>
                 <li>
                     <a href="mailto:info@example.com">info@example.com</a>
@@ -38,10 +38,10 @@
     </header>
     <main>
         <!--Навигация по сайту-->
-        <Section nav>
+        <Section class="site-menu">
             <!--<h1> Навигация по сайту</h1>-->
             <ul>
-                <li> <a href="all project.html"> Все</a></li>
+                <li> <a class="active" href="all project.html"> Все</a></li>
                 <li> <a href="Vebsite.itml"> Веб-сайты </a></li>
                 <li> <a href="annexes.html"> Приложения </a></li>
                 <li> <a href="design.html"> Дизайн </a></li>
@@ -49,13 +49,13 @@
             </ul>
         </Section>
         <!--Наши проекты-->
-        <section class=" Projects">
+        <section class="projects">
             <!--<h2>Наши проекты</h2>-->
             <ul>
                 <li>
                     <img src="images/tehnokriak.jpg" alt="Технокряк" />
                     <h3 class="project-name">Технокряк</h3>
-                    <p class="project-theme">Веб-сайт</p>
+                    <p class="theme">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="images/new_orlean.jpg" alt="Дизайн">
@@ -101,21 +101,21 @@
         </section>
     </main>
     <!--Подвал страницы-->
-    <footer class="footer">
-        <a href="index.html" class="logo-foot">
+    <footer>
+        <a href="index.html" class="logo">
             <span class="logo-footer"> Web </span>Studio </a>
-            <address>
-            <ul>
-                <li> г. Киев, пр-т Леси Украинки, 26
-                </li>
-                <li>
-                    <a href="mailto:info@example.com"> info@example.com</a>
+        <address>
+            <p> г. Киев, пр-т Леси Украинки, 26
+            </p>
+            <ul class="adress-list-footer ">
+                <a href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
                     <a href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
+    
     </footer>
 
 </body>
