@@ -178,7 +178,7 @@ footer address p {
 .site-menu button:focus,
 .site-menu button:active,
 .site-menu button:hover {
-  color: var(--text-accent-color);
+  color: var(--text-contrast-color);
   background-color: var(--button-color);
 }
 
