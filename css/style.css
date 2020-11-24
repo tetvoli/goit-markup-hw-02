@@ -50,7 +50,7 @@ header .logo {
 .site-nav a:hover {
   color: var(--text-accent-color);
 }
-.site-nav .active {
+.site-nav .selected {
   color: var(--text-accent-color);
 }
 
